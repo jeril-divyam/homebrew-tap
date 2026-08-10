@@ -18,7 +18,9 @@ brew install jeril-divyam/tap/<formula>
 
 ## Formulae
 
-_None yet._
+| Formula | What it is |
+|---|---|
+| [`lakeview`](lakeview.rb) | A terminal browser for [lakeFS](https://lakefs.io) |
 
 ## Adding a formula
 
