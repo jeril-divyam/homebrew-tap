@@ -7,25 +7,25 @@
 class Lakeview < Formula
   desc "Terminal browser for lakeFS"
   homepage "https://github.com/jeril-divyam/lakeview"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     # Apple silicon only.
     on_arm do
-      url "https://github.com/jeril-divyam/lakeview/releases/download/v0.1.3/lakeview_0.1.3_darwin_arm64.tar.gz"
-      sha256 "48c0125d2809c1f473944a4070d351645d30f55f0eb48c2209dd5a1ea20e3ca1"
+      url "https://github.com/jeril-divyam/lakeview/releases/download/v0.1.4/lakeview_0.1.4_darwin_arm64.tar.gz"
+      sha256 "cd0ba3e70df38d0f5362e98ab1d2f207c5ecf0c13ef767de0923c07beec7fe2d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jeril-divyam/lakeview/releases/download/v0.1.3/lakeview_0.1.3_linux_amd64.tar.gz"
-      sha256 "c443bb4b4876a79ecb6423e3b697ad5dd7e1613047e9ea28abac9f4a539bf027"
+      url "https://github.com/jeril-divyam/lakeview/releases/download/v0.1.4/lakeview_0.1.4_linux_amd64.tar.gz"
+      sha256 "569f9fd9f7598f041bdd65165b56fb88c4194df0a5860a5dff741bd73a33def2"
     end
     on_arm do
-      url "https://github.com/jeril-divyam/lakeview/releases/download/v0.1.3/lakeview_0.1.3_linux_arm64.tar.gz"
-      sha256 "a55528af88d1fc44484874024117792ff5dad075dd54905664148c800161355a"
+      url "https://github.com/jeril-divyam/lakeview/releases/download/v0.1.4/lakeview_0.1.4_linux_arm64.tar.gz"
+      sha256 "633f7cd1b84f72bb414e45b4f9739fcfa98967892c539dde180e2bf69484d881"
     end
   end
 
